@@ -1,6 +1,6 @@
 var roleUpgrader = {
 	role: 'upgrader',
-	max: 2,
+	max: 3,
 	spawn: function() {
 		let newName = this.role + Game.time;
 		Game.spawns['spawn1'].spawnCreep(
